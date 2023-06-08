@@ -1,0 +1,68 @@
+<!DOCTYPE html >
+<html  lang="en">
+
+<head>
+	<title>Proiectare Web tema 1</title>
+	<link rel="stylesheet" href="css/stil.css">
+</head>
+
+<body>
+	 <!-- Pun meniul intr-un container -->
+  <div class="nav">
+  <a href="index.html">Index</a>
+  <a href="inregistreaza.html">Inregistrare</a>
+  <a href="desen.html">Desen</a>
+  <a href="despre.html">Despre noi</a>
+  <a href="video.html">Video</a>
+  <a href="invat.html">Invat</a>
+</div> 
+
+<div class="svg-centru">
+  <svg width="1200" height="1200">
+    <defs>
+      <pattern id="pattern1" width="1" height="1">
+        <image xlink:href="https://cdn.adh.reperio.news/image-2/22281f2d-ae66-4765-9d49-c035209e0ee6/index.jpeg?p=w%3D650%26f%3Dpng%26q%3D91" width="180" height="120" />
+      </pattern>
+      <pattern id="pattern2" width="1" height="1">
+        <image xlink:href="https://cdn.adh.reperio.news/image-d/dc3f23ab-f246-4b41-be98-a58d7c6eb61b/index.jpeg?p=a%3D1%26co%3D1.05%26w%3D595%26h%3D669%26f%3Dwebp" width="180" height="120" />
+      </pattern>
+      <pattern id="pattern3" width="1" height="1">
+        <image xlink:href="https://static.wixstatic.com/media/9112b1_83cb8b7e30754d5d9a2eb405312048c1~mv2.jpg/v1/fill/w_640,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9112b1_83cb8b7e30754d5d9a2eb405312048c1~mv2.jpg" width="180" height="120" />
+      </pattern>
+      <pattern id="pattern4" width="1" height="1">
+        <image xlink:href="https://www.europafm.ro/wp-content/uploads/2017/07/Stefan-Cel-Mare.jpg" width="180" height="120" />
+      </pattern>
+      <pattern id="pattern5" width="1" height="1">
+        <image xlink:href="https://upload.wikimedia.org/wikipedia/commons/b/b5/Gheorghe_Asachi_%282%29.jpg" width="180" height="120" />
+      </pattern>
+    </defs>
+  <rect x="510" y="40" width="180" height="120" fill="url(#pattern1)">
+      <animate id="a1" attributeName="fill" from="url(#pattern1)" to="white" begin="2s" dur="3s" fill="freeze" />
+    </rect>
+    <rect x="510" y="240" width="180" height="120" fill="url(#pattern2)">
+      <animate id="a2" attributeName="fill" from="url(#pattern2)" to="white" begin="a1.end" dur="3s" fill="freeze" />
+    </rect>
+    <rect x="510" y="440" width="180" height="120" fill="url(#pattern3)">
+      <animate id="a3" attributeName="fill" from="url(#pattern3)" to="white" begin="a2.end" dur="3s" fill="freeze" />
+    </rect>
+    <rect x="510" y="640" width="180" height="120" fill="url(#pattern4)">
+      <animate id="a4" attributeName="fill" from="url(#pattern4)" to="white" begin="a3.end" dur="3s" fill="freeze" />
+    </rect>
+    <rect x="510" y="840" width="180" height="120" fill="url(#pattern5)">
+      <animate id="a5" attributeName="fill" from="url(#pattern5)" to="white" begin="a4.end" dur="3s" fill="freeze" />
+    </rect>
+    <text x="600" y="1160"><strong>CEI DIN MATRIX VOR SA VA UITATI PROPRIA ISTORIE!!!</strong></text>
+  </svg>
+</div>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <p>Popovici Luka CTI 2023</p>
+  <!-- Nu sunt sigur ce sa pun aici -->
+</footer>
+
+</body>
+
+</html>

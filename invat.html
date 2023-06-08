@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<title>Proiectare Web tema 1</title>
+	<link rel="stylesheet" href="css/stil.css">
+</head>
+
+<body>
+	 <!-- Pun meniul intr-un container -->
+ <div class="nav">
+  <a href="index.html">Index</a>
+  <a href="inregistreaza.html">Inregistrare</a>
+  <a href="desen.html">Desen</a>
+  <a href="despre.html">Despre noi</a>
+  <a href="video.html">Video</a>
+  <a href="invat.html">Invat</a>
+</div> 
+ <nav>
+        <a href="#sectiunea1">Sectiunea 1</a>
+        <a href="#sectiunea2">Sectiunea 2</a>
+        <a href="#sectiunea3">Sectiunea 3</a>
+    </nav>
+    
+    <section id="sectiunea1">
+        <h2>Ora si data</h2>
+        <p id="demo"></p>
+        <p id="lang"></p>
+        <p id="url"></p>
+     <p id="browser"></p>
+    <p id="os"></p>
+    <p id="location"></p>
+    </section>
+
+    <section id="sectiunea2">
+        <h2>Canvas</h2>
+         <div class="centrist">
+        <label for="culoare1">Culoarea corpului</label>
+<input type="color" id="culoare1" name="culoare1" value="#ff0000"> 
+<label for="culoare2">Culoarea conturului</label>
+<input type="color" id="culoare2" name="culoare2" value="#ff0000"> 
+</div>
+        <div class="centrist">
+<canvas id="myCanvas" width="800" height="800" style="border:1px solid #d3d3d3;">
+  Nu e suportat canvas.
+</canvas>
+</div>
+
+
+    </section>
+
+    <section id="sectiunea3">
+        <h2>Tabel dinamic</h2>
+        <p>Acesta este conținutul secțiunii 3.</p>
+    </section>
+    
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <p>Popovici Luka CTI 2023</p>
+  <!-- Nu sunt sigur ce sa pun aici -->
+</footer>
+	<script src="js/script.js"></script>
+	  <script>
+    document.body.onload = function() {
+     ceas();
+     drawRectangle();
+    };
+  </script>
+</body>
+
+</html>
+

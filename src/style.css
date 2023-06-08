@@ -1,0 +1,31 @@
+
+body {
+	margin-top: 400px;
+	background-image: url('matrix.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+ .centered-iframe {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  h1{
+	  color: rgb(0, 255, 0);
+	    margin-bottom: 400px;
+	    }
+  h2{
+	   color: rgb(0, 255, 0);
+   }
+   p{
+		color: rgb(0, 255, 0);
+   }
+code,
+a ,
+pre{
+	text-align: center;
+  color: rgb(0, 255, 0)  !important;
+}

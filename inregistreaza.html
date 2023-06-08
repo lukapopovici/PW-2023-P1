@@ -1,0 +1,91 @@
+
+
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+	<title>Proiectare Web tema 1</title>
+	<link rel="stylesheet" href="css/stil.css">
+</head>
+
+<body>
+	 <!-- Pun meniul intr-un container -->
+ <div class="nav">
+  <a href="index.html">Index</a>
+  <a href="inregistreaza.html">Inregistrare</a>
+  <a href="desen.html">Desen</a>
+  <a href="despre.html">Despre noi</a>
+  <a href="video.html">Video</a>
+  <a href="invat.html">Invat</a>
+</div> 
+<form>
+	<label for="username">Nume utilizator:</label>
+  <input type="text" id="username" name="username"><br>
+
+  <label for="firstName">Nume:</label>
+  <input type="text" id="firstName" name="firstName"><br><br>
+
+  <label for="password">Parola:</label>
+  <input type="password" id="password" name="password"><br>
+
+  <label for="lastName">Prenume:</label>
+  <input type="text" id="lastName" name="lastName"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="phone">Telefon:</label>
+  <input type="tel" id="phone" name="phone"><br>
+ <label for="Sex">Sexul:</label>
+<select id="Sex" name="Sex">
+  <option value="M">Barbat</option>
+  <option value="F">Femeie</option>
+</select> 
+<br>
+<label for="mancare-fav">Alegeti mancarea favorita:</label>
+<input list="listamancare" id="mancare-fav" name="mancare-fav">
+
+<datalist id="listamancare">
+    <option value="Salata">
+    <option value="Sarmale">
+    <option value="Mamaliga">
+
+
+</datalist>
+<br>
+<label for="Varsta">Varsta:</label> 
+  <input type="range" id="Varsta" name="Varsta"
+         min="0" max="99">
+<br>
+ <label for="favcolor">Culoarea favorita</label>
+<input type="color" id="favcolor" name="favcolor" value="#ff0000"> 
+<br>
+<label for="data">Date nasterii</label>
+<input type="date" id="data" name="data"
+
+       min="2000-01-01" max="2025-12-31">
+
+<br>
+<label for="time">Specificati timpul</label>
+<input type="time" id="ora" name="ora"
+       min="00:00" max="23:59" required>
+ <br>
+ <textarea name="Descriere" rows="5" cols="20">
+</textarea> 
+<br>
+ <label for="pagina">Adresa paginii personale:</label>
+<input type="url" id="pagina" name="pagina"> 
+ <br>
+ <input type="submit" value="Submit" disabled>
+</form>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <p>Popovici Luka CTI 2023</p>
+  <!-- Nu sunt sigur ce sa pun aici -->
+</footer>
+</body>
+
+</html>

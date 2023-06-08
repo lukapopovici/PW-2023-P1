@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "persoane.dtd">
+<persoane>
+  <persoana id="1">
+    <nume>Popescu</nume>
+    <prenume>Ion</prenume>
+    <varsta>23</varsta>
+    <adresa>
+      <strada>Exemplu</strada>
+		<numar>3</numar>
+		<localitate>Iasi</localitate>
+		<judet>Iasi</judet>
+		<tara>Romania</tara>
+    </adresa>
+    <europass>
+		<detine_cv>DA</detine_cv>
+    </europass>
+  </persoana>
+    <persoana id="2">
+    <nume>Popescu</nume>
+    <prenume>Alex</prenume>
+    <varsta>22</varsta>
+    <adresa>
+      <strada>Exemplu</strada>
+		<numar>5</numar>
+		<localitate>Iasi</localitate>
+		<judet>Iasi</judet>
+		<tara>Romania</tara>
+    </adresa>
+    <europass>
+		<detine_cv>DA</detine_cv>
+    </europass>
+  </persoana>
+    <persoana id="3">
+    <nume>Popescu</nume>
+    <prenume>Vasile</prenume>
+    <varsta>25</varsta>
+    <adresa>
+      <strada>Exemplu</strada>
+		<numar>3</numar>
+		<localitate>Iasi</localitate>
+		<judet>Iasi</judet>
+		<tara>Romania</tara>
+    </adresa>
+    <europass>
+		<detine_cv>NU</detine_cv>
+    </europass>
+  </persoana>
+</persoane>
